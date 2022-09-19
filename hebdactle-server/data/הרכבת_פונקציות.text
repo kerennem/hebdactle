@@ -1,0 +1,689 @@
+במתמטיקה, ההרכבה של פונקציות היא פונקציה המתקבלת מהפעלת פונקציות בזו אחר זו.
+ובאופן פורמלי: אם 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   פונקציה מ-
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   ל-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+   ו-
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   פונקציה מ-
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+   ל-
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+  , אז ההרכבה 
+  
+    
+      
+        g
+        ∘
+        f
+      
+    
+    {\displaystyle g\circ f}
+   (בסדר זה, קרי: 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   מורכבת על 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  ) היא הפונקציה מ-
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   ל-
+  
+    
+      
+        Z
+      
+    
+    {\displaystyle Z}
+   המוגדרת לפי 
+  
+    
+      
+         
+        (
+        g
+        ∘
+        f
+        )
+        (
+        x
+        )
+        =
+        g
+        (
+        f
+        (
+        x
+        )
+        )
+      
+    
+    {\displaystyle \ (g\circ f)(x)=g(f(x))}
+  . ההרכבה מוגדרת בתנאי שהתמונה של הפונקציה הראשונה (
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  ) מוכלת בתחום של הפונקציה השנייה (
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+  ).
+
+
+== תכונות ==
+התכונה החשובה ביותר של הרכבת פונקציות היא האסוציאטיביות של הפעולה: אם אפשר להרכיב את 
+  
+    
+      
+        h
+      
+    
+    {\displaystyle h}
+   על 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   ואת 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   על 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  , אז 
+  
+    
+      
+        h
+        ∘
+        (
+        g
+        ∘
+        f
+        )
+        =
+        (
+        h
+        ∘
+        g
+        )
+        ∘
+        f
+      
+    
+    {\displaystyle h\circ (g\circ f)=(h\circ g)\circ f}
+  . בזכות תכונה זו, והעובדה שלמערכות של פונקציות יש תפקיד מרכזי כל-כך במתמטיקה, מרבית הפעולות במבנים אלגבריים, ובראשם החבורות, הם אסוציאטיביים. לדוגמה, אוסף כל הפונקציות מקבוצה 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+   לעצמה הוא מונויד. פונקציה 
+  
+    
+      
+        f
+        :
+        X
+        →
+        Y
+      
+    
+    {\displaystyle f\colon X\to Y}
+   שהיא פונקציה חד-חד-ערכית ועל היא הפיכה: קיימת 
+  
+    
+      
+        g
+        :
+        Y
+        →
+        X
+      
+    
+    {\displaystyle g\colon Y\to X}
+   כך ש-
+  
+    
+      
+        g
+        ∘
+        f
+        =
+        
+          id
+          
+            X
+          
+        
+      
+    
+    {\displaystyle g\circ f=\operatorname {id} _{X}}
+   וגם 
+  
+    
+      
+        f
+        ∘
+        g
+        =
+        
+          id
+          
+            Y
+          
+        
+      
+    
+    {\displaystyle f\circ g=\operatorname {id} _{Y}}
+   (דהיינו, ההרכבה 
+  
+    
+      
+        g
+        ∘
+        f
+      
+    
+    {\displaystyle g\circ f}
+   היא פונקציית הזהות על 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  , ובנוסף ההרכבה 
+  
+    
+      
+        f
+        ∘
+        g
+      
+    
+    {\displaystyle f\circ g}
+   היא פונקציית הזהות על 
+  
+    
+      
+        Y
+      
+    
+    {\displaystyle Y}
+  ). למעשה, אם קיימת פונקציה 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   שכזו היא יחידה, ולכן מכונה "הפונקציה ההופכית של 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+  " ולרוב מסומנת ב-
+  
+    
+      
+        
+          f
+          
+            −
+            1
+          
+        
+      
+    
+    {\displaystyle f^{-1}}
+  .
+
+
+== הרכבה של פונקציות ממשיות ==
+הרוב המכריע של הפונקציות המופיעות בחישובים מדעיים מתקבלות כהרכבות של פונקציות יסודיות; הרכבות כאלה נקראות פונקציות אלמנטריות. למשל, הפונקציה 
+  
+    
+      
+         
+        f
+        (
+        x
+        )
+        =
+        
+          e
+          
+            sin
+            ⁡
+            (
+            
+              x
+              
+                2
+              
+            
+            )
+          
+        
+      
+    
+    {\displaystyle \ f(x)=e^{\sin(x^{2})}}
+   היא ההרכבה 
+  
+    
+      
+        f
+        =
+        
+          
+            exp
+          
+        
+        ∘
+        
+          
+            sin
+          
+        
+        ∘
+        s
+      
+    
+    {\displaystyle f={\mathord {\exp }}\circ {\mathord {\sin }}\circ s}
+   כאשר 
+  
+    
+      
+        s
+        (
+        x
+        )
+        =
+        
+          x
+          
+            2
+          
+        
+      
+    
+    {\displaystyle s(x)=x^{2}}
+   ו- 
+  
+    
+      
+        exp
+        ⁡
+        (
+        x
+        )
+        =
+        
+          e
+          
+            x
+          
+        
+      
+    
+    {\displaystyle \exp(x)=e^{x}}
+  .
+ניתן לדון גם בגבול של הרכבת פונקציות ממשיות: אם 
+  
+    
+      
+        f
+      
+    
+    {\displaystyle f}
+   ו-
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   פונקציות שעבורן 
+  
+    
+      
+        
+          lim
+          
+            x
+            →
+            
+              x
+              
+                0
+              
+            
+          
+        
+        f
+        (
+        x
+        )
+        =
+        
+          y
+          
+            0
+          
+        
+      
+    
+    {\displaystyle \lim _{x\rightarrow x_{0}}f(x)=y_{0}}
+   וכן גם קיים הגבול 
+  
+    
+      
+        
+          lim
+          
+            y
+            →
+            
+              y
+              
+                0
+              
+            
+          
+        
+        g
+        (
+        y
+        )
+        =
+        L
+      
+    
+    {\displaystyle \lim _{y\rightarrow y_{0}}g(y)=L}
+   (עבור 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+        ,
+        
+          y
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0},y_{0}}
+   כלשהם), אז הגבול של הרכבת הפונקציות 
+  
+    
+      
+        g
+        ∘
+        f
+      
+    
+    {\displaystyle g\circ f}
+   כאשר 
+  
+    
+      
+        x
+        →
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x\to x_{0}}
+   קיים ושווה ל-
+  
+    
+      
+        
+          lim
+          
+            x
+            →
+            
+              x
+              
+                0
+              
+            
+          
+        
+        (
+        g
+        ∘
+        f
+        )
+        (
+        x
+        )
+        =
+        
+          lim
+          
+            y
+            →
+            
+              y
+              
+                0
+              
+            
+          
+        
+        g
+        (
+        y
+        )
+        =
+        L
+      
+    
+    {\displaystyle \lim _{x\rightarrow x_{0}}(g\circ f)(x)=\lim _{y\rightarrow y_{0}}g(y)=L}
+  . אם מתקיים לפחות אחד משני התנאים הבאים, אז גם 
+  
+    
+      
+        g
+        
+          (
+          
+            
+              lim
+              
+                x
+                →
+                
+                  x
+                  
+                    0
+                  
+                
+              
+            
+            f
+            (
+            x
+            )
+          
+          )
+        
+        =
+        L
+      
+    
+    {\displaystyle g\left(\lim _{x\rightarrow x_{0}}f(x)\right)=L}
+   מתקיים: 
+  
+    
+      
+        g
+      
+    
+    {\displaystyle g}
+   רציפה ב-
+  
+    
+      
+        
+          y
+          
+            0
+          
+        
+      
+    
+    {\displaystyle y_{0}}
+   (כלומר 
+  
+    
+      
+        L
+        =
+        g
+        (
+        
+          y
+          
+            0
+          
+        
+        )
+      
+    
+    {\displaystyle L=g(y_{0})}
+  ) או שקיימת סביבה מנוקבת של 
+  
+    
+      
+        
+          x
+          
+            0
+          
+        
+      
+    
+    {\displaystyle x_{0}}
+   שבה 
+  
+    
+      
+        f
+        (
+        x
+        )
+        ≠
+        
+          y
+          
+            0
+          
+        
+      
+    
+    {\displaystyle f(x)\neq y_{0}}
+  . שני תנאים אלו מספיקים אך לא הכרחיים.
+כלל השרשרת קובע את הנגזרת של הרכבת פונקציות, באופן התלוי בנגזרות של המרכיבים.
+
+
+== קישורים חיצוניים ==
+
+הרכבת פונקציות, באתר MathWorld (באנגלית)
